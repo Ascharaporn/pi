@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to top, #f14f26, #dddb4e, #fceba8);
+    display: flex; /* Centers the content */
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    height: 100vh; /* Ensures the body fills the entire viewport height */
+    margin: 0;
+}
+
+.container {
+    background-color: #fff; /* White background for the content box */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    text-align: center;
+    max-width: 400px; /* Limits the maximum width of the box */
+    width: 90%; /* Makes the box responsive on smaller screens */
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100px; /* Sets the size of the logo */
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.link {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
